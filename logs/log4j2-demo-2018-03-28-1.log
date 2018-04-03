@@ -1,0 +1,177 @@
+2018-03-28 21:24:23.811  INFO jarek-Latitude-3550 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.demospring2.DemoSpring2ApplicationTests], using SpringBootContextLoader
+2018-03-28 21:24:23.832  INFO jarek-Latitude-3550 --- [           main] o.s.t.c.s.AbstractContextLoader          : Could not detect default resource locations for test class [com.example.demospring2.DemoSpring2ApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2018-03-28 21:24:23.833  INFO jarek-Latitude-3550 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.example.demospring2.DemoSpring2ApplicationTests]: DemoSpring2ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2018-03-28 21:35:15.987  INFO jarek-Latitude-3550 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.demospring2.DemoSpring2ApplicationTests], using SpringBootContextLoader
+2018-03-28 21:35:16.005  INFO jarek-Latitude-3550 --- [           main] o.s.t.c.s.AbstractContextLoader          : Could not detect default resource locations for test class [com.example.demospring2.DemoSpring2ApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2018-03-28 21:35:16.006  INFO jarek-Latitude-3550 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.example.demospring2.DemoSpring2ApplicationTests]: DemoSpring2ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2018-03-28 21:43:21.627  INFO jarek-Latitude-3550 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.demospring2.DemoSpring2ApplicationTests], using SpringBootContextLoader
+2018-03-28 21:43:21.659  INFO jarek-Latitude-3550 --- [           main] o.s.t.c.s.AbstractContextLoader          : Could not detect default resource locations for test class [com.example.demospring2.DemoSpring2ApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2018-03-28 21:43:21.661  INFO jarek-Latitude-3550 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.example.demospring2.DemoSpring2ApplicationTests]: DemoSpring2ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2018-03-28 22:10:14.404  INFO jarek-Latitude-3550 --- [           main] c.e.d.DemoSpring2Application             : Starting DemoSpring2Application on jarek-Latitude-3550 with PID 11630 (/home/jarek/Dokumenty/spring-boot/demo-spring2/target/classes started by jarek in /home/jarek/Dokumenty/spring-boot/demo-spring2)
+2018-03-28 22:10:14.426  INFO jarek-Latitude-3550 --- [           main] c.e.d.DemoSpring2Application             : No active profile set, falling back to default profiles: default
+2018-03-28 22:10:14.570  INFO jarek-Latitude-3550 --- [           main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6a0e02ab: startup date [Wed Mar 28 22:10:14 CEST 2018]; root of context hierarchy
+2018-03-28 22:10:17.158  INFO jarek-Latitude-3550 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4f38c736] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-03-28 22:10:17.686  INFO jarek-Latitude-3550 --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2018-03-28 22:10:17.708  INFO jarek-Latitude-3550 --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2018-03-28 22:10:17.722  INFO jarek-Latitude-3550 --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2018-03-28 22:10:17.723  INFO jarek-Latitude-3550 --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.5.28
+2018-03-28 22:10:17.740  INFO jarek-Latitude-3550 --- [ost-startStop-1] o.a.c.c.AprLifecycleListener             : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+2018-03-28 22:10:17.852  INFO jarek-Latitude-3550 --- [ost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2018-03-28 22:10:17.853  INFO jarek-Latitude-3550 --- [ost-startStop-1] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 3292 ms
+2018-03-28 22:10:19.013  INFO jarek-Latitude-3550 --- [ost-startStop-1] o.s.b.w.s.ServletRegistrationBean        : Servlet dispatcherServlet mapped to [/]
+2018-03-28 22:10:19.019  INFO jarek-Latitude-3550 --- [ost-startStop-1] o.s.b.w.s.ServletRegistrationBean        : Servlet webServlet mapped to [/h2-console/*]
+2018-03-28 22:10:19.023  INFO jarek-Latitude-3550 --- [ost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-03-28 22:10:19.024  INFO jarek-Latitude-3550 --- [ost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-03-28 22:10:19.024  INFO jarek-Latitude-3550 --- [ost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-03-28 22:10:19.024  INFO jarek-Latitude-3550 --- [ost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'requestContextFilter' to: [/*]
+2018-03-28 22:10:19.024  INFO jarek-Latitude-3550 --- [ost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'httpTraceFilter' to: [/*]
+2018-03-28 22:10:19.024  INFO jarek-Latitude-3550 --- [ost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'webMvcMetricsFilter' to: [/*]
+2018-03-28 22:10:19.180  INFO jarek-Latitude-3550 --- [           main] o.f.c.i.u.VersionPrinter                 : Flyway Community Edition 5.0.7 by Boxfuse
+2018-03-28 22:10:19.192  INFO jarek-Latitude-3550 --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2018-03-28 22:10:19.479  INFO jarek-Latitude-3550 --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2018-03-28 22:10:19.486  INFO jarek-Latitude-3550 --- [           main] o.f.c.i.d.DatabaseFactory                : Database: jdbc:h2:mem:testdb (H2 1.4)
+2018-03-28 22:10:19.597  INFO jarek-Latitude-3550 --- [           main] o.f.c.i.c.DbValidate                     : Successfully validated 1 migration (execution time 00:00.026s)
+2018-03-28 22:10:19.626  INFO jarek-Latitude-3550 --- [           main] o.f.c.i.s.JdbcTableSchemaHistory         : Creating Schema History table: "PUBLIC"."flyway_schema_history"
+2018-03-28 22:10:19.650  INFO jarek-Latitude-3550 --- [           main] o.f.c.i.c.DbMigrate                      : Current version of schema "PUBLIC": << Empty Schema >>
+2018-03-28 22:10:19.652  INFO jarek-Latitude-3550 --- [           main] o.f.c.i.c.DbMigrate                      : Migrating schema "PUBLIC" to version 1 - init
+2018-03-28 22:10:19.673  INFO jarek-Latitude-3550 --- [           main] o.f.c.i.c.DbMigrate                      : Successfully applied 1 migration to schema "PUBLIC" (execution time 00:00.051s)
+2018-03-28 22:10:19.853  INFO jarek-Latitude-3550 --- [           main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-03-28 22:10:19.876  INFO jarek-Latitude-3550 --- [           main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-03-28 22:10:19.974  INFO jarek-Latitude-3550 --- [           main] o.h.Version                              : HHH000412: Hibernate Core {5.2.14.Final}
+2018-03-28 22:10:19.975  INFO jarek-Latitude-3550 --- [           main] o.h.c.Environment                        : HHH000206: hibernate.properties not found
+2018-03-28 22:10:19.994  WARN jarek-Latitude-3550 --- [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is java.lang.NoClassDefFoundError: javax/xml/bind/JAXBException
+2018-03-28 22:10:19.995  INFO jarek-Latitude-3550 --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2018-03-28 22:10:20.011  INFO jarek-Latitude-3550 --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2018-03-28 22:10:20.014  INFO jarek-Latitude-3550 --- [           main] o.a.c.c.StandardService                  : Stopping service [Tomcat]
+2018-03-28 22:10:20.041  INFO jarek-Latitude-3550 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-03-28 22:10:20.044 ERROR jarek-Latitude-3550 --- [           main] o.s.b.SpringApplication                  : Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is java.lang.NoClassDefFoundError: javax/xml/bind/JAXBException
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1710)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:583)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1085)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:858)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:388)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1246)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1234)
+	at com.example.demospring2.DemoSpring2Application.main(DemoSpring2Application.java:16)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.maven.AbstractRunMojo$LaunchRunner.run(AbstractRunMojo.java:496)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+Caused by: java.lang.NoClassDefFoundError: javax/xml/bind/JAXBException
+	at org.hibernate.boot.spi.XmlMappingBinderAccess.<init>(XmlMappingBinderAccess.java:43)
+	at org.hibernate.boot.MetadataSources.<init>(MetadataSources.java:87)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.<init>(EntityManagerFactoryBuilderImpl.java:209)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.<init>(EntityManagerFactoryBuilderImpl.java:164)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:51)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:388)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:377)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1769)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1706)
+	... 22 more
+Caused by: java.lang.ClassNotFoundException: javax.xml.bind.JAXBException
+	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:466)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:563)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:496)
+	... 33 more
+2018-03-28 22:11:45.905  INFO jarek-Latitude-3550 --- [           main] c.e.d.DemoSpring2Application             : Starting DemoSpring2Application on jarek-Latitude-3550 with PID 11777 (/home/jarek/Dokumenty/spring-boot/demo-spring2/target/classes started by jarek in /home/jarek/Dokumenty/spring-boot/demo-spring2)
+2018-03-28 22:11:45.915  INFO jarek-Latitude-3550 --- [           main] c.e.d.DemoSpring2Application             : No active profile set, falling back to default profiles: default
+2018-03-28 22:11:46.047  INFO jarek-Latitude-3550 --- [           main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@61dbeb2c: startup date [Wed Mar 28 22:11:46 CEST 2018]; root of context hierarchy
+2018-03-28 22:11:48.568  INFO jarek-Latitude-3550 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ae7cf477] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-03-28 22:11:49.091  INFO jarek-Latitude-3550 --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2018-03-28 22:11:49.118  INFO jarek-Latitude-3550 --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2018-03-28 22:11:49.142  INFO jarek-Latitude-3550 --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2018-03-28 22:11:49.143  INFO jarek-Latitude-3550 --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.5.28
+2018-03-28 22:11:49.162  INFO jarek-Latitude-3550 --- [ost-startStop-1] o.a.c.c.AprLifecycleListener             : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+2018-03-28 22:11:49.296  INFO jarek-Latitude-3550 --- [ost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2018-03-28 22:11:49.297  INFO jarek-Latitude-3550 --- [ost-startStop-1] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 3265 ms
+2018-03-28 22:11:50.384  INFO jarek-Latitude-3550 --- [ost-startStop-1] o.s.b.w.s.ServletRegistrationBean        : Servlet dispatcherServlet mapped to [/]
+2018-03-28 22:11:50.386  INFO jarek-Latitude-3550 --- [ost-startStop-1] o.s.b.w.s.ServletRegistrationBean        : Servlet webServlet mapped to [/h2-console/*]
+2018-03-28 22:11:50.390  INFO jarek-Latitude-3550 --- [ost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-03-28 22:11:50.391  INFO jarek-Latitude-3550 --- [ost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-03-28 22:11:50.391  INFO jarek-Latitude-3550 --- [ost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-03-28 22:11:50.391  INFO jarek-Latitude-3550 --- [ost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'requestContextFilter' to: [/*]
+2018-03-28 22:11:50.391  INFO jarek-Latitude-3550 --- [ost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'httpTraceFilter' to: [/*]
+2018-03-28 22:11:50.391  INFO jarek-Latitude-3550 --- [ost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'webMvcMetricsFilter' to: [/*]
+2018-03-28 22:11:50.497  INFO jarek-Latitude-3550 --- [           main] o.f.c.i.u.VersionPrinter                 : Flyway Community Edition 5.0.7 by Boxfuse
+2018-03-28 22:11:50.540  INFO jarek-Latitude-3550 --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2018-03-28 22:11:50.905  INFO jarek-Latitude-3550 --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2018-03-28 22:11:50.917  INFO jarek-Latitude-3550 --- [           main] o.f.c.i.d.DatabaseFactory                : Database: jdbc:h2:mem:testdb (H2 1.4)
+2018-03-28 22:11:51.022  INFO jarek-Latitude-3550 --- [           main] o.f.c.i.c.DbValidate                     : Successfully validated 1 migration (execution time 00:00.021s)
+2018-03-28 22:11:51.043  INFO jarek-Latitude-3550 --- [           main] o.f.c.i.s.JdbcTableSchemaHistory         : Creating Schema History table: "PUBLIC"."flyway_schema_history"
+2018-03-28 22:11:51.070  INFO jarek-Latitude-3550 --- [           main] o.f.c.i.c.DbMigrate                      : Current version of schema "PUBLIC": << Empty Schema >>
+2018-03-28 22:11:51.072  INFO jarek-Latitude-3550 --- [           main] o.f.c.i.c.DbMigrate                      : Migrating schema "PUBLIC" to version 1 - init
+2018-03-28 22:11:51.092  INFO jarek-Latitude-3550 --- [           main] o.f.c.i.c.DbMigrate                      : Successfully applied 1 migration to schema "PUBLIC" (execution time 00:00.050s)
+2018-03-28 22:11:51.294  INFO jarek-Latitude-3550 --- [           main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-03-28 22:11:51.319  INFO jarek-Latitude-3550 --- [           main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-03-28 22:11:51.422  INFO jarek-Latitude-3550 --- [           main] o.h.Version                              : HHH000412: Hibernate Core {5.2.14.Final}
+2018-03-28 22:11:51.424  INFO jarek-Latitude-3550 --- [           main] o.h.c.Environment                        : HHH000206: hibernate.properties not found
+2018-03-28 22:11:51.445  WARN jarek-Latitude-3550 --- [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is java.lang.NoClassDefFoundError: javax/xml/bind/JAXBException
+2018-03-28 22:11:51.446  INFO jarek-Latitude-3550 --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2018-03-28 22:11:51.467  INFO jarek-Latitude-3550 --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2018-03-28 22:11:51.471  INFO jarek-Latitude-3550 --- [           main] o.a.c.c.StandardService                  : Stopping service [Tomcat]
+2018-03-28 22:11:51.512  INFO jarek-Latitude-3550 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-03-28 22:11:51.514 ERROR jarek-Latitude-3550 --- [           main] o.s.b.SpringApplication                  : Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is java.lang.NoClassDefFoundError: javax/xml/bind/JAXBException
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1710)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:583)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1085)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:858)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:388)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1246)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1234)
+	at com.example.demospring2.DemoSpring2Application.main(DemoSpring2Application.java:16)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.maven.AbstractRunMojo$LaunchRunner.run(AbstractRunMojo.java:496)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+Caused by: java.lang.NoClassDefFoundError: javax/xml/bind/JAXBException
+	at org.hibernate.boot.spi.XmlMappingBinderAccess.<init>(XmlMappingBinderAccess.java:43)
+	at org.hibernate.boot.MetadataSources.<init>(MetadataSources.java:87)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.<init>(EntityManagerFactoryBuilderImpl.java:209)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.<init>(EntityManagerFactoryBuilderImpl.java:164)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:51)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:388)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:377)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1769)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1706)
+	... 22 more
+Caused by: java.lang.ClassNotFoundException: javax.xml.bind.JAXBException
+	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:466)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:563)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:496)
+	... 33 more
